@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "settings",
+  "info": {
+    "name": "settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "weather_station": {
+      "default": "",
+      "type": "integer"
+    },
+    "locations": {
+      "default": "",
+      "type": "json"
+    },
+    "public_transportation": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}
