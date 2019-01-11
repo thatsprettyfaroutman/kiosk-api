@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/epics",
+      "handler": "Epic.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/epics/count",
+      "handler": "Epic.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/epics/:id",
+      "handler": "Epic.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/epics",
+      "handler": "Epic.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/epics/:id",
+      "handler": "Epic.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/epics/:id",
+      "handler": "Epic.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/epics/:id/relationships/:relation",
+      "handler": "Epic.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/epics/:id/relationships/:relation",
+      "handler": "Epic.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/epics/:id/relationships/:relation",
+      "handler": "Epic.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
