@@ -15,15 +15,7 @@
       "default": "",
       "type": "string"
     },
-    "weather_station": {
-      "default": "",
-      "type": "integer"
-    },
-    "locations": {
-      "default": "",
-      "type": "json"
-    },
-    "public_transportation": {
+    "settings": {
       "default": "",
       "type": "json"
     }
