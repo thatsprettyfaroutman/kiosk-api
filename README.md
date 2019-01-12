@@ -1,3 +1,3 @@
-# awesome-kiosk-api
+# kiosk-api
 
-A quick description of awesome-kiosk-api.
+Api for my kiosk app needs. Made with Strapi
